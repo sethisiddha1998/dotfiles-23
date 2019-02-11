@@ -1,0 +1,40 @@
+@import "auto-hide.css";
+
+.tab-line,
+.tab-bottom-line,
+.tab-icon-image,
+.tab-close-button,
+.tabbrowser-tab::before,
+.tabbrowser-tab::after,
+#alltabs-button {
+  display: none !important;
+}
+
+#TabsToolbar {
+  padding-bottom: 4px !important;
+}
+
+.tabbrowser-tab[fadein]:not([pinned]) {
+  max-width: none !important;
+}
+
+.tabbrowser-tab[selected] .tab-content {
+  color: #ddddd0 !important;
+}
+
+.tab-background[selected="true"] {
+  border: none !important;
+  border-radius: 5px;
+  background-image: none !important;
+  background-color: #7f5f52 !important;
+}
+
+#nav-bar {
+  background-image: none !important;
+  background-color: #353231 !important;
+  box-shadow: none !important;
+}
+
+#urlbar {
+  border: none !important;
+}
