@@ -1,0 +1,15 @@
+#XfceNotifyWindow {
+  border-radius: 9px;
+}
+
+#XfceNotifyWindow label#summary {
+  font-weight: normal;
+}
+
+#XfceNotifyWindow label#body {
+  margin-top: 6px;
+}
+
+#XfceNotifyWindow progressbar trough {
+  background-color: transparent;
+}
