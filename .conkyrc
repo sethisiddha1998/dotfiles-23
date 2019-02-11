@@ -1,0 +1,18 @@
+conky.config = {
+    own_window = true,
+    own_window_type = "override",
+    own_window_transparent = true,
+    gap_x = 0,
+    gap_y = 0,
+    alignment = "top_left",
+    minimum_width = 1920,
+    minimum_height = 1080,
+    update_interval = 30,
+    draw_shades = false
+}
+conky.text = [[
+    ${image ~/.conky/top-left.png -p 0,32}
+    ${image ~/.conky/top-right.png -p 1914,32}
+    ${image ~/.conky/bottom-left.png -p 0,1074}
+    ${image ~/.conky/bottom-right.png -p 1914,1074}
+]]
