@@ -1,0 +1,50 @@
+.xfce4-panel * {
+  font-family: "Fira Sans";
+}
+
+/* Workspace switcher */
+#pager-1 button {
+  min-width: 16px;
+  margin-left: 4px;
+  margin-top: 4px;
+  padding-top: 3px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+}
+#pager-1 label {
+  padding-left: 1px;
+}
+#pager-1 .toggle:checked {
+  color: #0a0a0a;
+  background-color: #aaaaa0;
+}
+
+/* Network icon */
+#statusnotifier-25 image {
+  opacity: 0;
+}
+
+/* Battery icon */
+#xfce4-power-manager-plugin image {
+  opacity: 0;
+}
+
+/* Volume icon */
+#pulseaudio-button image {
+  opacity: 0;
+}
+
+/* Genmon battery */
+#genmon-23 box {
+  margin-bottom: 1px;
+}
+
+/* Genmon network */
+#genmon-24 box {
+  margin-top: 0px;
+}
+
+/* Terminal */
+vte-terminal {
+  padding: 2px;
+}
