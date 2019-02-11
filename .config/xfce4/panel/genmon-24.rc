@@ -1,0 +1,6 @@
+Command=sh /home/wsdfhjxc/.genmon/network.sh
+UseLabel=0
+Text=(genmon)
+UpdatePeriod=10000
+Font=Roboto Mono 10.5
+

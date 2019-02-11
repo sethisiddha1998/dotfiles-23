@@ -1,0 +1,6 @@
+Command=sh /home/wsdfhjxc/.genmon/volume.sh
+UseLabel=0
+Text=(genmon)
+UpdatePeriod=3000
+Font=Roboto Mono 10.5
+
