@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+  background-color: #353231;
+}
+
+body {
+  margin: 5px 0px 0px 0px;
+  height: calc(100% - 5px);
+  color: #353231;
+  background-color: #ddddd0;
+  border-radius: 5px;
+  font-family: "Fira Sans";
+  text-align: center;
+  line-height: 1.75;
+}
+
+#content {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #353231;
+}
+
+#hello {
+  font-size: 32pt;
+}
+
+#date {
+  font-size: 18pt;
+}
+
+#tips {
+  margin-top: 44px;
+  font-size: 16pt;
+  color: #7f5f52;
+}
+
+.tip {
+  display: block;
+  text-align: left;
+}
+
+.code {
+  font-family: "Fira Code";
+}
